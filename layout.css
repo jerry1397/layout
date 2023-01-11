@@ -26,9 +26,11 @@ hr{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 .wrapped-content{
     padding: 0px 95px;
+    transition: all .5s;
 }
 h2{
     color: gray;
@@ -50,164 +52,371 @@ h2{
 }
 ul>li:nth-of-type(1){
     padding-left: 95px;
+    transition: all .5s;
 }
 
-@media screen and (max-width : 1410px) {
-    
-    .box{
-        width: 350px;
+@media screen and (max-width:1484px) {
+    .wrapped-content{
+        padding: 0px 90px;
     }
-    li{
-        padding-left: 5px;
-        padding-right: 5px;
+    header{
+        display: block;
     }
 }
-@media screen and (max-width : 1264px) {
-    
-    .big-box{
-        grid-template-columns: auto auto;  
-    }
-    .box{
-        width: 350px;
-    }
+@media screen and (max-width:1440px) {
     .wrapped-content{
-        padding: 0px 200px;
-    }
-    li{
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 0px 80px;
     }
     ul>li:nth-of-type(1){
-        padding-left: 200px;
+        padding-left: 80px;
     }
 
 }
-
-@media screen and (max-width : 1150px) {
-    
-    :root{
-        font-size: 14.5px;
+@media screen and (max-width:1425px) {
+    .wrapped-content{
+        padding: 0px 65px;
+    }
+    ul>li:nth-of-type(1){
+        padding-left: 65px;
+    }
+}
+@media screen and (max-width:1395px) {
+    .box{
+        width: 380px;
+    }
+}
+@media screen and (max-width:1332px) {
+    .box{
+        width: 360px;
+    }
+}
+@media screen and (max-width:1273px) {
+    .box{
+        width: 340px;
+    }
+}
+@media screen and (max-width:1223px) {
+    .box{
+        width: 325px;
+    }
+}
+@media screen and (max-width:1170px) {
+    .box{
+        width: 310px;
+    }
+}
+@media screen and (max-width:1123px) {
+    .box{
+        width: 295px;
+    }
+}
+@media screen and (max-width:1078px) {
+    .box{
+        width: 280px;
+    }
+}
+@media screen and (max-width:1037px) {
+    .box{
+        width: 400px;
+    }
+}
+@media screen and (max-width:963px) {
+    .box{
+        width: 385px;
+    }
+}
+@media screen and (max-width:934px) {
+    .box{
+        width: 370px;
+    }
+}
+@media screen and (max-width:911px) {
+    .box{
+        width: 355px;
+    }
+}
+@media screen and (max-width:878px) {
+    .box{
+        width: 340px;
+    }
+}
+@media screen and (max-width:847px) {
+    .box{
+        width: 325px;
+    }
+}
+@media screen and (max-width:813px) {
+    .box{
+        width: 310px;
+    }
+}
+@media screen and (max-width:786px) {
+    .box{
+        width: 295px;
+    }
+}
+@media screen and (max-width:755px) {
+    .box{
+        width: 280px;
+    }
+}
+@media screen and (max-width:725px) {
+    .box{
+        width: 265px;
+    }
+}
+@media screen and (max-width:693px) {
+    .box{
+        width: 250px;
+    }
+}
+@media screen and (max-width:666px) {
+    .wrapped-content{
+        padding: 0px 60px;
+    }
+    ul>li:nth-of-type(1){
+        padding-left: 60px;
+    }
+}
+@media screen and (max-width:653px) {
+    .wrapped-content{
+        padding: 0px 50px;
+    }
+    ul>li:nth-of-type(1){
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width:634px) {
+    .wrapped-content{
+        padding: 0px 40px;
+    }
+}
+@media screen and (max-width:615px) {
+    .wrapped-content{
+        padding: 0px 30px;
+    }
+}
+@media screen and (max-width:595px) {
+    h1{
+        font-size: 25px;
+        transition: all .5s;
+    }
+    h2{
+        font-size: 22px;
+        padding-left: 0px;
+        transition: all .5s;
     }
     .head{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
     }
-    .wrapped-content{
-        display: grid;
-        place-items: center;
+    h1,h2{
+        margin: 0px;
     }
-    hr{
-        width: 350px;
+    h2{
+        margin-top: 5px;
     }
-    
-    .big-box{
-        display: grid;
-        grid-template-columns: auto;
-    }
-    ul{
+    header{
         display: flex;
-        justify-content: center;
     }
     ul>li:nth-of-type(1){
-        padding-left: 0px;
+        padding-left: 15px;
     }
-    li{
-        padding: 10px 21px;
+
+    .big-box{
+        justify-content: center;
+    }
+    .box{
+        width: 400px;
     }
 }
-@media screen and (max-width : 1020px) {
+@media screen and (max-width:595px) {
     .wrapped-content{
-        padding: 0px 100px;
+        padding: 0px 95px;
     }
-    hr{
-        width: 350px;
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 26px;
     }
 }
-@media screen and (max-width : 948px) {
-    
+@media screen and (max-width:565px) {
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:543px) {
+    h1{
+        font-size: 26px;
+    }
+    h2{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:512px) {
+    h1{
+        font-size: 23px;
+        margin-top: 2px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .wrapped-content{
+        padding: 0px 85px;
+    }
+}
+@media screen and (max-width:466px) {
+    .wrapped-content{
+        padding: 0px 75px;
+    }
+}
+@media screen and (max-width:453px) {
+    .wrapped-content{
+        padding: 0px 65px;
+    }
+}
+@media screen and (max-width:425px) {
+    .wrapped-content{
+        padding: 0px 55px;
+    }
+}
+@media screen and (max-width:408px) {
+    .wrapped-content{
+        padding: 0px 45px;
+    }
+}
+@media screen and (max-width:384px) {
+    .wrapped-content{
+        padding: 0px 35px;
+    }
+}
+@media screen and (max-width:366px) {
+    .wrapped-content{
+        padding: 0px 30px;
+    }
+}
+@media screen and (max-width:355px) {
+    .wrapped-content{
+        padding: 0px 25px;
+    }
+}
+@media screen and (max-width:346px) {
+    .wrapped-content{
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width:335px) {
     :root{
         font-size: 14px;
     }
-    .big-box{
-        grid-template-columns: auto ;
-    }
-
     .box{
-        width: 350px;
+        width: 280px;
     }
+}
+@media screen and (max-width:330px) {
     h1{
-        padding-right: 15px;
+        font-size: 21px;
     }
-    hr{
-        width: 350px;
+    h2{
+        font-size: 18px;
+    }
+    ul>li:nth-of-type(1){
+        padding-left: 5px;
     }
     li{
-        padding: 10px 21px;
+        padding: 15px 5px;
     }
-    ul>li:nth-of-type(1)
-    {
-        padding-left: 0px;
-    }
-    
 }
-@media screen and (max-width : 699px) {
-    
+@media screen and (max-width:323px) {
+    .box{
+        width: 270px;
+    }
+}
+@media screen and (max-width:309px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    .box{
+        width: 260px;
+    }
+}
+@media screen and (max-width:301px) {
     :root{
         font-size: 12px;
     }
-    .big-box{
-        grid-template-columns: auto;  
+    .box{
+        width: 250px;
     }
+}
+@media screen and (max-width:290px) {
     h1{
-        padding-right: 10px;
+        font-size: 18px;
     }
-    hr{
-        width: 300px;
+    h2{
+        font-size: 16px;
     }
     .box{
-        width: 300px;
+        width: 240px;
     }
-    li{
-        padding: 10px 15px;
-    }
-    
 }
-@media screen and (max-width : 490px) {
-    
+@media screen and (max-width:281px) {
     :root{
         font-size: 10px;
     }
-    .big-box{
-        grid-template-columns: auto;
-        
-    }
-    h1,h2{
-        font-size: 18px;
-    }
-    .wrapped-content{
-        padding: 0px 60px;
-    }
     .box{
-        width: 250px;
-    }
-    hr{
-        width: 250px;
-    }
-    li{
-        padding: 10px 10px;
+        width: 230px;
     }
 }
-
-@media screen and (max-width:375px) {
-    
-    .wrapped-content{
-        padding: 0px 10px;
-    }
+@media screen and (max-width:270px) {
     h1{
-        padding-right: 0px;
+        font-size: 17px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .wrapped-content{
+        padding: 0px 20px;
+    }
+    .box{
+        width: 220px;
+    }
+}
+@media screen and (max-width:258px) {
+    .wrapped-content{
+        padding: 0px 15px;
     }
     li{
-        padding: 10px 8px;
+        padding: 15px 3px;
     }
+    ul>li:nth-of-type(1){
+        padding-left: 3px;
+    }
+   
+}
+@media screen and (max-width:250px) {
+    .wrapped-content{
+        padding: 0px 10px;
+    } 
+}
+@media screen and (max-width:240px) {
+    .wrapped-content{
+        padding: 0px 5px;
+    } 
+}
+@media screen and (max-width:231px) {
+    .wrapped-content{
+        padding: 0px 0px;
+    } 
 }
