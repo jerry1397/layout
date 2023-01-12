@@ -30,7 +30,7 @@ hr{
 }
 .wrapped-content{
     padding: 0px 95px;
-    transition: all .5s;
+    /* transition: all .5s; */
 }
 h2{
     color: gray;
@@ -44,7 +44,7 @@ h2{
     gap: 10px;
     flex-direction: column;
     justify-content: flex-start;
-    transition: all .5s;
+    /* transition: all .03s; */
 }
 .P-name{
     color: #6097ce;
@@ -199,12 +199,12 @@ ul>li:nth-of-type(1){
 @media screen and (max-width:595px) {
     h1{
         font-size: 25px;
-        transition: all .5s;
+        /* transition: all .5s; */
     }
     h2{
         font-size: 22px;
         padding-left: 0px;
-        transition: all .5s;
+        /* transition: all .5s; */
     }
     .head{
         display: flex;
